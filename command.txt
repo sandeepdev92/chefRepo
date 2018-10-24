@@ -1,0 +1,148 @@
+    1  yum install git
+    2  git --version
+    3  git config --global user.name "sandeep kumar"
+    4  git config --global user.email "sandeepdev92@gmail.com
+"
+    5  git config --global user.email "sandeepdev92@gmail.com"
+    6  git config --list
+    7  cd /home/
+    8  ls -ltrh
+    9  mkdir cookbook
+   10  cd cookbook/
+   11  git clone git@github.com:sandeepdev92/StackTest.git
+   12  gri clone https://github.com/sandeepdev92/StackTest.git
+   13  grt clone https://github.com/sandeepdev92/StackTest.git
+   14  git clone https://github.com/sandeepdev92/StackTest.git
+   15  ls -ltrh
+   16  cd StackTest
+   17  ls -ltrh
+   18  touch abc.txt
+   19  cd ../
+   20  git status
+   21  git init
+   22  git status
+   23  git add "StackTest/"
+   24  git status
+   25  git commit -m "add repo"
+   26  git push
+   27  git remote add StackTest https://github.com/sandeepdev92/StackTest.git
+   28  git push
+   29  git push StackTest
+   30  git push --set-upstream StackTest master
+   31  ls -ltrh
+   32  mkdir chefRepo
+   33  cd chefRepo
+   34  ls -ltrh
+   35  touch README.md
+   36  cd ../
+   37  git status
+   38  git addd "chefRepo/"
+   39  git add "chefRepo/"
+   40  git status
+   41  git commit -m "add new repo"
+   42  git push --set-upstream StackTest master
+   43  git push --set-upstream  chefRepo master
+   44  git push --set-upstream chefRepo/README.md master
+   45  git status
+   46  git remote set-url git@github.com:sandeepdev92/StackTest.git
+   47  git remote set-url sandeep kumar git@github.com:sandeepdev92/StackTest.git
+   48  git remote set-url sandeepdev92 git@github.com:sandeepdev92/StackTest.git
+   49  vim .git/config
+   50   git push -u origin master
+   51  ls -ltrh
+   52  ls -la
+   53  git push origin master
+   54  vim .git/config
+   55  cd chefRepo/
+   56  touch README.md
+   57  git init
+   58  git add README.md
+   59  git commit -m "first commit"
+   60  git remote add origin git@github.com:sandeepdev92/StackTest.git
+   61  git push -u origin master
+   62  git remote add origin https://github.com/sandeepdev92/StackTest.git
+   63  git push
+   64  git  push --set-upstream origin master
+   65  git remote add origin https://github.com/sandeepdev92
+   66  git  push --set-upstream origin master
+   67  git push -u origin master
+   68  ls -ltrh
+   69  cd ../
+   70  git push -u origin master
+   71  ls -ltrh
+   72  git remote add origin git@github.com:alexpchin/chefRepo.git
+   73  git push -u origin master
+   74  ls -ltrh
+   75  cd chefRepo/
+   76  ls -ltrh
+   77  git push -u origin master
+   78  ls -ltrh
+   79  cd ../
+   80  ls -ltrh
+   81  rm -rf chefRepo
+   82  ls -ltrh
+   83  git clone https://github.com/sandeepdev92/chefRepo.git
+   84  ls -ltrh
+   85  cd chefRepo/
+   86  ls -la
+   87  echo "# chefRepo" >> README.md
+   88  git commit -m "first commit"
+   89  git push -u origin master
+   90  ls -ltrh
+   91  git status
+   92  git add .
+   93  git status
+   94  git commit -m "add file"
+   95  git status
+   96  git branch
+   97  git push
+   98  ls -ltrh
+   99  mkdir cookbook
+  100  ls -ltrh
+  101  git status
+  102  ls -la
+  103  ls -ltrh
+  104  cd ../
+  105  git status
+  106  cd -
+  107  ls -ltrh
+  108  rm -rf cookbook
+  109  ls -ltrh
+  110  mkdir test
+  111  ls -ltrh
+  112  git status
+  113  pwd
+  114  ls -ltrh
+  115  cd test/
+  116  touch README.md
+  117  cd ../
+  118  git status
+  119  git add .
+  120  git status
+  121  git commit -m "add new repo"
+  122  git push
+  123  cc
+  124  ls -ltrh
+  125  mkdir filebeat
+  126  cd filebeat/
+  127  echo "# chefRepo" >> README.md
+  128  cd ../
+  129  git status
+  130  git add filebeat/
+  131  git commit add filebeat
+  132  git commit -m "add filebeat"
+  133  git push
+  134  ls -ltrh
+  135  cd filebeat
+  136  ls -ltrh
+  137  cd ../
+  138  git pull 
+  139  ls -ltrh
+  140  cd filebeat/
+  141  ls -ltrh
+  142  cd recipes
+  143  ls -ltrh
+  144  cd ../
+  145  ls -ltrh
+  146  hostory >/home/command.txt
+  147  history >/home/command.txt
